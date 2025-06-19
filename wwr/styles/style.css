@@ -198,11 +198,6 @@ nav {
     z-index: -1;
 }
 #rivers_hero-msg {
-   /*  grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px; */
-}
-#rivers_hero-msg {
     text-align: center;
     color: black;
     font-family: Oregano, 'Courier New', 'Brush Script MT';
