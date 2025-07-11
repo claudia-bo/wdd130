@@ -186,3 +186,222 @@ footer .social img {
     width: 290px;
     text-align: center;
 }
+/*chilpage 1*/
+
+#ourpets-hero-msg h1 {
+    text-align: center;
+    color: #396E94;
+    font-size: 56px;
+    font-family: "Playfair Display";
+
+}
+#ourpets-hero-msg p {
+    text-align: justify;
+    color: black;
+    font-size: 28px;
+    font-family: Karla, Helvetica, sans-serif;
+    margin-left: -200px;
+    margin-right: -200px;
+
+}
+#ourpets-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#ourpets-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 50px;
+}
+.button-ourpets-box {
+    text-align: center;
+    margin-top: 50px;
+}
+.adoptourpets {
+    background-color: #f9e0aa;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.adoptourpets:hover {
+    background-color: #f5c979;
+    color: black;
+}
+.ourpets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    
+}
+#ourpets-msg {
+    text-align: center;
+    color: #396E94;
+    font-size: 45px;
+    font-family: "Playfair Display";
+    grid-column: 2/10;
+    grid-row: 1/2;
+    margin-top: 70px;
+}
+.senior-dog-card {
+    margin: 100px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+       
+}
+.card-imagen1 {
+    width: 300px;
+    border: 10px solid #eacdf6;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-imagen1:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+.card-imagen2 {
+    width: 400px;
+    border: 10px solid #eacdf6;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-imagen2:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+.card-imagen3 {
+    width: 300px;
+    border: 10px solid #eacdf6;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-imagen3:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+.card-imagen4 {
+    width: 450px;
+    border: 10px solid #eacdf6;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-imagen4:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+.card-imagen5 {
+    width: 300px;
+    border: 10px solid #eacdf6;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-imagen5:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+.baby-dogs-card {
+    margin: 230px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+    margin-left: -60px;
+}
+.senior-cat-card {
+    margin: 105px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+    margin-left: -20px;
+}
+.baby-cats-card {
+    margin: 147px 0;
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+.brown-dog-card {
+    margin: 5px 0;
+    grid-column: 7/9;
+    grid-row: 3/4;
+    margin-left: -25px;
+}
+.senior-dog-card h2 {
+    margin-left: -5px;
+    font-size: 35px;
+    width: 320px;
+    text-align: center;
+    font-family: Karla, Helvetica, sans-serif;
+}
+.baby-dogs-card h2 {
+    margin-left: 25px;
+    font-size: 35px;
+    width: 350px;
+    text-align: center;
+    font-family: Karla, Helvetica, sans-serif;
+}
+.senior-cat-card h2 {
+    margin-left: 0;
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+    font-family: Karla, Helvetica, sans-serif;
+}
+.baby-cats-card h2 {
+    margin-left: 25px;
+    font-size: 35px;
+    width: 400px;
+    text-align: center;
+    font-family: Karla, Helvetica, sans-serif;
+    /*margin-right: 100px;*/
+}
+.brown-dog-card h2 {
+    margin-left: 5px;
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+    font-family: Karla, Helvetica, sans-serif;
+}
+.adopt-1 {
+    background-color: #f9e0aa;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    
+}
+.adopt-1:hover {
+    background-color: #f5c979;
+    color: black;
+}
+.adopt-2 {
+    background-color: #f9e0aa;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 100px;
+    border-radius: 5px;
+    margin-left: 115px;
+    
+}
+.adopt-3 {
+    background-color: #f9e0aa;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 80px;
+    border-radius: 5px;
+    margin-left: 130px;
+    
+}
+.adopt-2:hover {
+    background-color: #f5c979;
+    color: black;
+}
+.adopt-3:hover {
+    background-color: #f5c979;
+    color: black;
+}
