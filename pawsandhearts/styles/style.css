@@ -405,3 +405,117 @@ footer .social img {
     background-color: #f5c979;
     color: black;
 }
+
+/*childpage 2*/
+.requirements-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    
+}
+#requirements_hero-msg {
+    text-align: center;
+    color: #396E94;
+    font-size: 45px;
+    font-family: "Playfair Display";
+    grid-column: 2/10;
+    grid-row: 1/2;
+    margin-top: 10px;
+}
+.girl-dog {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 650px;
+}
+.requirements-msg {
+    grid-column: 6/11;
+    grid-row: 2/3;
+    margin-top: 200px;
+    /*margin-left: 10px;*/
+    width: 670px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: Karla, Helvetica, sans-serif;
+
+}
+.dogs-eyes {
+    grid-column: 2/10;
+    grid-row: 3/4;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.ready-to-adopt {
+    margin: 50px 0;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    text-align: center;
+    margin-left: -110px;
+    margin-right: 30px;
+    background-color: rgba(240, 221, 238, 0.79);
+    box-shadow: 5px 5px 10px #6f7364;
+    color: black;
+    padding: 15px 30px;
+}
+.form {
+    margin: 50px 0;
+    grid-column: 4/6;
+    grid-row: 4/5;
+    width: 110%;
+    margin-left: 43px;
+    text-align: center;
+    background-color: rgba(240, 221, 238, 0.79);
+    box-shadow: 5px 5px 10px #6f7364;
+    color: black;
+    padding: 15px 30px;
+}
+.follow-up {
+    margin: 50px 0;
+    grid-column: 7/10;
+    grid-row: 4/5;
+    width: 90%;
+    margin-left: 60px;
+    text-align: center;
+    margin-right: 50px;
+    background-color: rgba(240, 221, 238, 0.79);
+    box-shadow: 5px 5px 10px #6f7364;
+    color: black;
+    padding: 10px 30px 30px 30px
+}
+.learn-more {
+    background-color: #f9e0aa;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 200px;
+    border-radius: 5px;
+    margin-left: 0px;
+    
+}
+.learn-more:hover {
+    background-color: #f5c979;
+    color: black;
+}
+.ready-to-adopt h2 {
+    margin-left: -15px;
+    font-size: 45px;
+    width: 110%;
+}
+.form h2 {
+    margin-left: -15px;
+    font-size: 45px;
+    width: 110%;
+}
+.follow-up h2 {
+    margin-left: -60px;
+    font-size: 45px;
+    width: 130%;
+}
+.ready-to-adopt p {
+    margin-bottom: 145px;
+}
+.form p {
+    margin-bottom: 110px;
+}
